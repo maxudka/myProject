@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BonjourAzur home page">
+    <meta name="author" content="Max K">
+
+    <title>BonjourAzur - Добро пожаловать!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">BonjourAzur</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="about.html">О нас</a>
+                </li>
+                <li>
+                    <a href="services.html">Услуги</a>
+                </li>
+                <li>
+                    <a href="contact.html">Контакты</a>
+                </li>
+                <li>
+                    <a href="blog-home.html">Блог</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Другое <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+
+                        <li>
+                            <a href="sidebar.html">Наши партнеры</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('img/slide1.png');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('img/slide2.png');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('img/slide3.png');"></div>
+            </div>
+        </div>
+
+         <!--С контролами еще не решил -->
+        <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">-->
+            <!--<span class="icon-prev"></span>-->
+        <!--</a>-->
+        <!--<a class="right carousel-control" href="#myCarousel" data-slide="next">-->
+            <!--<span class="icon-next"></span>-->
+        <!--</a>-->
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Welcome to BonjourAzur!
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Жить во Франции</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Почему мы решили жить на юге Франции? Не в Италии, Испании, Германии, а во Франции?</p>
+                        <a href="blog-post.html" class="btn btn-default">Читать</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i>Первое знакомство с Францией</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Итак, приехали мы на юг Франции. Что нас поразило в жизни французов?</p>
+                        <a href="blog-post1.html" class="btn btn-default">Читать</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i> Где мы живем?</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Болье-сюр-Мер — славный город в одной из самых красивых горных местностей.</p>
+                        <a href="blog-post2.html" class="btn btn-default">Читать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <hr>
+
+        <!-- Subscribe Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Подписывайтесь на обновления нашего сайта и будьте в курсе новостей!</p>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-lg btn-default btn-block" data-toggle="modal" data-target="#myModal">Подписаться</button>
+                </div>
+            </div>
+      </div>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <form name="subscribe" id="subscribeForm" novalidate>
+                                    <div class="control-group form-group">
+                                        <div class="controls">
+                                            <label>Ваше имя:</label>
+                                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                                            <p class="help-block"></p>
+                                        </div>
+                                    </div>
+                                    <div class="control-group form-group">
+                                        <div class="controls">
+                                            <label>Ваш Email:</label>
+                                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                        <button type="submit" class="btn btn-primary"  data-toggle="modal" data-target="#successModal">Подписаться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal panel-info" id="successModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div id="success"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-unstyled list-inline list-social-icons">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                        </li>
+                    </ul>
+                    <p>Copyright &copy; BonjourAzur 2016</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <script src="js/jquery.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/subscribe_me.js"></script>
+
+
+    <script>
+    $('.carousel').carousel({
+        interval: 3000
+    })
+    </script>
+
+</body>
+
+</html>
